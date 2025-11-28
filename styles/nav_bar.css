@@ -6,6 +6,14 @@ header nav {
   background-color: #3e006d;
 }
 
+.title-nav {
+  font-family: "Courier New", Courier, monospace;
+}
+
+header nav select {
+  display: none;
+}
+
 header nav ul {
   list-style-type: none;
   margin: 0;
@@ -24,7 +32,23 @@ header nav ul li a {
   color: white;
 }
 
+/*
 header ul li a:hover {
   background-color: #6804b4;
-  width: 100%;
+  width: 75%;
+}
+*/
+
+@media (max-width: 1024px) {
+  header nav ul {
+    display: none;
+  }
+  header nav select {
+    display: block;
+    float: right;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: #6804b4;
+  }
 }

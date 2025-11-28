@@ -6,17 +6,91 @@
     <meta http-equiv="X-UA-Compatible" />
     <title>blanchard789.dev</title>
     <link rel="stylesheet" href="styles/nav_bar.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="scripts/main.js"></script>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a class="title-nav" href="#">blanchard789.dev</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <select id="mobile-nav" aria-label="Site Navigation">
+          <option value="" hidden selected>Menu</option>
+          <option value="#about">About</option>
+          <option value="#experience">Experience</option>
+          <option value="#projects">Projects</option>
+          <option value="#contact">Contact</option>
+        </select>
       </nav>
     </header>
+    <main>
+      <section class="container-fluid section about">
+        <div id="about" class="row p-3 container mx-auto section-top">
+          <h1 class="section-header"><span>About</span></h1>
+          <div class="item-container">
+            <p>
+              Hello, I am currently finishing up my Computer Science degree at
+              Portland State University. My studies have given me experience in
+              C++, C, Python, and web development tools like JavaScript and
+              HTML. I look forward to graduating soon and continuing to grow my
+              software development skills in the workforce.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid section experience">
+        <div id="experience" class="row p-3 container mx-auto section-top">
+          <h1 class="section-header"><span>Experience</span></h1>
+        </div>
+        <div class="item-container">
+          <div class="row">
+            <div class="item-section">Work</div>
+            <div class="item-split-column">
+              <div class="item-title">Technology Peer Mentor</div>
+              <div class="item-company">Mt. Hood Community College</div>
+              <div class="item-location">Gresham, OR</div>
+              <div class="item-dates">Jan 2022 - Aug 2023</div>
+            </div>
+            <div class="item-bulletpoints">
+              <ul>
+                <li>Tutoring: course software and computer skills</li>
+                <li>Customer support</li>
+                <li>Team and inter-departmental collaboration</li>
+                <li>Helping keep the computer lab clean and maintained</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="item-section">Education</div>
+            <div class="item-split-column">
+              <div class="item-title">
+                Bachelor of Science in Computer Science
+              </div>
+              <div class="item-company">Portland State University</div>
+              <div class="item-location">Portland, OR</div>
+              <div class="item-dates">Expected Graduation 2026</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid section projects">
+        <div id="projects" class="row p-3 container mx-auto section-top">
+          <h1 class="section-header"><span>Projects</span></h1>
+        </div>
+        <div class="item-container"></div>
+      </section>
+      <section class="container-fluid section contact">
+        <div id="contact" class="row p-3 container mx-auto section-top">
+          <h1 class="section-header"><span>Contact</span></h1>
+        </div>
+        <div class="item-container"></div>
+      </section>
+    </main>
   </body>
 </html>

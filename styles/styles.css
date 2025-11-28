@@ -1,0 +1,47 @@
+.body {
+  margin-top: 100px;
+}
+
+.section {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 100px;
+}
+
+.section-header {
+  text-align: left;
+  border: 5px solid #6804b4;
+  background-color: #6804b4;
+  color: white;
+  padding: 10px;
+}
+
+.item-container {
+  border: 5px solid #ab3dff;
+  padding: 10px;
+}
+
+.item-section {
+  font-size: 1.75em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.item-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.item-company {
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.item-split-column {
+  column-count: 2;
+}
+
+.item-bulletpoints {
+  columns: 2;
+}
