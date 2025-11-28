@@ -30,6 +30,14 @@ Copied nav bar from class homework exercise. I also modified it a bit, including
 
 - Started add some info the created section elements.
 
-### 11/25/25
+### 11/27/25
+
+- Added more info to required sections. Such as employment and education info.
 
 - Further refined css formatting for required information sections. Such as adding borders and changing some rows to columns for better use of space and formatting.
+
+### 11/28/2025
+
+- Further refined css formatting for required information sections. Such as recoloring borders and background color for better contrast and aesthetics.
+
+- Added a basic footer, will need to further refine later as it has some padding issues.
