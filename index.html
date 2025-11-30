@@ -7,6 +7,7 @@
     <title>blanchard789.dev</title>
     <link rel="stylesheet" href="styles/nav_bar.css" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/grid.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <script defer src="scripts/main.js"></script>
   </head>
@@ -84,7 +85,76 @@
         <div id="projects" class="row p-3 container mx-auto section-top">
           <h1 class="section-header"><span>Projects</span></h1>
         </div>
-        <div class="item-container"></div>
+        <div class="item-container">
+          <div class="grid-container">
+            <div class="grid-item">
+              <div class="grid-title">A Crow's Commute</div>
+              <img
+                src="assets/crowGame_crow.png"
+                alt="A Crow's Commute logo features a top down view of a 2D crow sprite"
+              />
+              <p class="grid-description">
+                Small 2D game about a crow finding food, without being caught by
+                the trailing hawk. Built with the Bevy crate for Rust and custom
+                2D Sprites.
+              </p>
+              <a
+                href="https://github.com/blanchard789/A-Crows-Commute"
+                class="source-button"
+                aria-label="project source"
+              >
+                GitHub
+              </a>
+            </div>
+            <div class="grid-item">
+              <div class="grid-title">Medieval Graphics</div>
+              <img
+                src="assets/pyramid.png"
+                alt="Medieval Graphics logo features assorted shapes in various colors"
+              />
+              <p class="grid-description">
+                Simple OpenGL project using Python's Pygame module.
+              </p>
+              <fieldset class="grid-features">
+                <legend>Features</legend>
+                <ul>
+                  <li>Custom OBJs and Textures (Blockbench and Blender)</li>
+                  <li>Custom Animations</li>
+                  <li>Navigable Map</li>
+                </ul>
+              </fieldset>
+              <a
+                href="https://github.com/rhinomat/Medieval-Graphics"
+                class="source-button"
+                aria-label="project source"
+              >
+                GitHub
+              </a>
+            </div>
+            <div class="grid-item">
+              <div class="grid-title">Variable Boot Drive</div>
+              <img
+                src="assets/vbd_icon.png"
+                alt="VBD logo features a pixel art raspberry with PSU logo"
+              />
+              <p class="grid-description">
+                Open source program for Raspberry Pi, which gives IT
+                professionals an easy and portable way to handle boot media.
+                This program allows a user to either locally or through the web
+                interface dump ISO files onto the Pi device and then select with
+                a touchscreen what ISO they wish to use when plugged into a
+                computer.
+              </p>
+              <a
+                href="https://gitlab.cecs.pdx.edu/variablebootdrive/variablebootdrive/-/tree/main?ref_type=heads"
+                class="source-button"
+                aria-label="project source"
+              >
+                GitLab
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="container-fluid section contact">
         <div id="contact" class="row p-3 container mx-auto section-top">
@@ -95,6 +165,6 @@
     </main>
   </body>
   <footer>
-    <div class="copyright">© blanchard789.dev</div>
+    <div id="copyright" class="copyright"></div>
   </footer>
 </html>

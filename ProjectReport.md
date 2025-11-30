@@ -40,4 +40,10 @@ Copied nav bar from class homework exercise. I also modified it a bit, including
 
 - Further refined css formatting for required information sections. Such as recoloring borders and background color for better contrast and aesthetics.
 
-- Added a basic footer, will need to further refine later as it has some padding issues.
+- Added a basic footer, will need to further refine later as it has some padding issues. Includes a JS function to update copyright year automatically.
+
+- Started grid element for projects section. Uses a grid-container class with grid-item class as child elements. Allows for a n x 3 table of project items, each project item gets a title, image, description, optional fieldset for featured info, and code source button.
+
+## 11/29/2025
+
+- Refined grid element to have better formatting. Main goal was to get everything to be spaced nicely and for colors to have better contrast.
