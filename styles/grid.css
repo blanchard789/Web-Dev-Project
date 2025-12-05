@@ -12,7 +12,7 @@
   color: black;
   width: auto;
   min-height: 600px;
-  max-height: 800px;
+  max-height: 850px;
   height: auto;
 }
 
@@ -85,9 +85,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
   .grid-item {
-    max-height: 500px;
-    min-height: 400px;
-    height: auto;
+    min-height: 500px;
   }
   img {
     width: 100px;
@@ -104,9 +102,7 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
   .grid-item {
-    max-height: 500px;
     min-height: 400px;
-    height: auto;
   }
   img {
     width: 75px;

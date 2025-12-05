@@ -78,11 +78,66 @@ hr {
   p {
     font-size: 1em;
   }
+  .section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .item-title {
+    font-size: 1.25em;
+  }
+
+  .item-company {
+    font-size: 1em;
+  }
+
+  .item-location {
+    font-size: 1em;
+  }
+
+  .item-dates {
+    font-size: 1em;
+  }
+
+  .item-split-column {
+    column-count: 1;
+  }
+
+  .item-bulletpoints {
+    columns: 1;
+  }
 }
 
 /* Mobile */
 @media (max-width: 414px) {
   p {
-    font-size: 0.75em;
+    font-size: 1em;
+  }
+  .section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .item-title {
+    font-size: 1.25em;
+  }
+
+  .item-company {
+    font-size: 1em;
+  }
+
+  .item-location {
+    font-size: 1em;
+  }
+
+  .item-dates {
+    font-size: 1em;
+  }
+
+  .item-split-column {
+    column-count: 1;
+  }
+
+  .item-bulletpoints {
+    columns: 1;
+    font-size: 1em;
   }
 }
